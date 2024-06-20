@@ -1,8 +1,13 @@
 [Backlog]  # Historias con tiempo estimadol
 US10:
- -Crear Inicio con logo y dos botones.(estimado 1 hora )
-    -Primer boton al repositorio git  (estimado 1 hora)
-    -Segundo boton al Loging (estimado 1 hora)
+Us20: 
+    -crear loging.html (estimado 1h 30m )
+    -resposibe ( estimado1 h)
+    -boton desactivado hasta que acepte condiciones.( estimado 1 hora)
+    - metodo get.( estimado 1 hora)
+US21:
+    -mostrar terminos y condiciones al cliquear (2 horas )
+    -boton cerrar (1 hora )
 
   
 [Spring]  # Historias a realizar en un spring con responsable asignado
@@ -20,4 +25,7 @@ US041 - Clasificaciones (estimado 2h. real 1h30')
 
 
 [Finalizado] # Historias finalizadas
-
+US010 - Hacer login (estimado 3 horas real 2 h)
+    -Crear Inicio con logo y dos botones.(estimado 1 hora  real 1 hora 30mins)
+    -Primer boton al repositorio git  (estimado 1 hora real 10min)
+    -Segundo boton al Loging (estimado 1 hora real 10min)
