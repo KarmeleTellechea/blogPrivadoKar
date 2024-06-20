@@ -1,8 +1,9 @@
 [Backlog]  # Historias con tiempo estimadol
 US10:
 Us20: 
-    -crear loging.html (estimado 1h 30m )
+   
     -resposibe ( estimado1 h)
+    -logica js par el loging (estimado 1h 30m )
     -boton desactivado hasta que acepte condiciones.( estimado 1 hora)
     - metodo get.( estimado 1 hora)
 US21:
@@ -29,3 +30,5 @@ US010 - Hacer login (estimado 3 horas real 2 h)
     -Crear Inicio con logo y dos botones.(estimado 1 hora  real 1 hora 30mins)
     -Primer boton al repositorio git  (estimado 1 hora real 10min)
     -Segundo boton al Loging (estimado 1 hora real 10min)
+Us20: 
+    -crear loging.html (estimado 1h 30m real 45 min)
