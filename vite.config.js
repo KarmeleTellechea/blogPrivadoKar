@@ -1,5 +1,8 @@
 import { defineConfig } from 'vite'  
 import { fileURLToPath } from 'node:url'
+import { htmlEntries } from './html_entries'
+
+
 
 /**
  * @see https://vitejs.dev/config/
@@ -15,7 +18,10 @@ export default defineConfig({
   },
   publicDir: 'static',
   build: {
-    outDir: 'public'
+    outDir: 'public',
+    rollupOptions: {
+      input: htmlEntries()
+    }
   }
   
 })
