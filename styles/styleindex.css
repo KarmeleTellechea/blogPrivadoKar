@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    height:70rem;
+    background-color: rgb(185, 210, 217);
+   
+  }
+  img{
+   width: 50%;
+   margin-left: 23rem;
+  }

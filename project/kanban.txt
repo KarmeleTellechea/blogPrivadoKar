@@ -1,12 +1,12 @@
 [Backlog]  # Historias con tiempo estimadol
 US10:
- -Crear Inicio con logo y dos botones.
-    -Primer boton al repositorio git 
-    -Segundo boton al Loging
+ -Crear Inicio con logo y dos botones.(estimado 1 hora )
+    -Primer boton al repositorio git  (estimado 1 hora)
+    -Segundo boton al Loging (estimado 1 hora)
 
   
 [Spring]  # Historias a realizar en un spring con responsable asignado
-
+ 
 
 [En proceso]  # Historias en proceso
 
