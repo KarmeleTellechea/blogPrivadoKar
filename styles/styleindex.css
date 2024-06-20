@@ -1,13 +1,47 @@
 * {
     box-sizing: border-box;
-  }
-  body {
+}
+
+body {
     margin: 0;
-    height:70rem;
+    height: 100vh;
     background-color: rgb(185, 210, 217);
-   
-  }
-  img{
-   width: 50%;
-   margin-left: 23rem;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns {
+    display: flex;
+    gap: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 80%;
+    height: 2%;
+}
+
+.btninicio {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 0.2rem solid #040744;
+    color: #212839;
+    text-decoration: none;
+    font-weight: bold;
+    transition: border-color 0.3s ease-in-out;
+
+}
+
+.btninicio:hover {
+    border-color: #537371;
+}
