@@ -1,0 +1,16 @@
+Código: US010
+
+Nombre: Inicio
+
+Roles: Usuario
+
+Necesidad:
+Poder ver el logo y llegar al loging o al repositorio git 
+
+Razon: 
+Poder ver el trabajo
+
+Aceptacion:
+
+
+Relaciones:

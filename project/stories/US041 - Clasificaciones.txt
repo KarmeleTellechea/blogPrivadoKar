@@ -1,0 +1,16 @@
+Código: US041
+
+Nombre: Clasificaciones
+
+Roles: Usuario
+
+Necesidad:
+Que cuando se pinche en una clasificación, se muestren las fotos de las mismas
+
+Razon:
+Poder ver los datos de cada clasificación
+
+Aceptacion:
+
+
+Relaciones:

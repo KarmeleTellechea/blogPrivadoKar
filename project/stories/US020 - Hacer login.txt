@@ -1,0 +1,17 @@
+Código: US20
+
+Nombre: Hacer login
+
+Roles: Usuario
+
+Necesidad:
+Crear un formulario para introducir mi usuario y contraseña
+
+Razon:
+Poder enviar las credenciales al endpoint de autenticaficación
+
+Aceptacion:
+Si no se acceptan las condiciones no se enviará solicitud alguna
+El login se realizará con una solicitud tipo GET a auth.html
+
+Relaciones:

@@ -1,0 +1,17 @@
+Código: US020
+
+Nombre: Mostrar condiciones
+
+Roles: Usuario
+
+Necesidad:
+Mostrar las condiciones del servicio
+
+Razon:
+Poder leer las condiciones antes de aceptarlas
+
+Aceptacion:
+Que página donde se muestran las condiciones, tenga un mecanismo para poder volver a la página para poder loguearse 
+
+Relaciones:
+

@@ -1,0 +1,19 @@
+Código: US030
+
+Nombre: Autorizar usuario
+
+Roles: Sistema
+
+Necesidad:
+Comprobar las credenciales enviadas para poder acceder al sitio
+
+Razon:
+Evitar accesos no autorizados al sitio 
+
+Aceptacion:
+Que compruebe si los valores de ususario/contraseña enviados están en la lista de usuarios 
+Si están, el sistema tiene que redirigir al usuario a dashboard.html
+Si NO están, el sistema tiene que redirigir al usuario a login.html
+
+Relaciones:
+

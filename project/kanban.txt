@@ -1,0 +1,23 @@
+[Backlog]  # Historias con tiempo estimadol
+US10:
+ -Crear Inicio con logo y dos botones.
+    -Primer boton al repositorio git 
+    -Segundo boton al Loging
+
+  
+[Spring]  # Historias a realizar en un spring con responsable asignado
+
+
+[En proceso]  # Historias en proceso
+
+
+[Revision]  # Historias pendientes de aprobación, con el tiempo dedicado
+US010 - Hacer login (estimado 2h. real 1h.)
+US020 - Mostrar condiciones (estimando 2h. real 15')
+US030 - Comprobar login (2h. real 30')
+US040 - Mostrar dashboard (estimado 2h. real: ui 1h + logica 30')
+US041 - Clasificaciones (estimado 2h. real 1h30')
+
+
+[Finalizado] # Historias finalizadas
+

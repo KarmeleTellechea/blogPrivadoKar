@@ -1,0 +1,16 @@
+Código: US040
+
+Nombre: Mostrar dashboard
+
+Roles: Usuario
+
+Necesidad:
+Mostrar el contenido del dashboard
+
+Razon:
+Poder leer ver las fotos
+
+Aceptacion:
+Que página contenga un título, un menú de navegación y un lugar donde se muestren las fotos. 
+
+Relaciones:
