@@ -45,3 +45,20 @@ img {
 .btninicio:hover {
     border-color: #537371;
 }
+
+/* login*/
+.fondo {
+    height: 100%;
+    width: 75%;
+   background-image: url(../Img/fondologin.webp);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+    
+}
+
+.loging {
+    height: 100%;
+    width: 30%;
+    background-color: #1e201f;
+}
