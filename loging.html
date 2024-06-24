@@ -17,21 +17,21 @@
             <label for="contrasena">Contraseña:</label>
             <input type="password" name="contrasena"id="password"><br>
             <input type="checkbox" onChange="boton()" id="checkcondiciones"  name="checkcondiciones"/>
-            <p>Acepto los <span>Terminos y condiciones</span></p>
+            <p>Acepto los <div id="letrascon" onclick="Sipop()">Terminos y condiciones</div></p>
             <input id="btnenviar" type="submit" value="Enviar" disabled>
         </form>
         <div id="t_c_pop">
-            <div id="popcaja">
+            <div>
                 <h1 id="poptitulo">Terminos y condiciones </h1>
-                <p id="poptexto">En un puerto italiano al pie de las montañas,<br>
-                    Vive nuestro amigo marco<br>
-                    En una humilde morada.
+                <p id="poptexto">En un puerto italianoooooo al pieee de las montañaaaas,<br>
+                    Vive nuestro amigo marcooooo<br>
+                    En una humilde moradaaaaa.
                 </p>
-                <div id="popclose">&#9746;</div>  
+                <div id="popclose" onclick="Nopop()">&#9746;</div>  
             </div>
         </div>
 
-        <script src="src/main.js"></script>
+        <script src="src/js/main.js"></script>
     </section>
 </body>
 </html>

@@ -85,6 +85,35 @@ img {
     transform: scale(1.3);
     margin:5%;
 }
-span{
+#letrascon {
     color: rgb(125, 165, 165);
 }
+#t_c_pop {
+    visibility: hidden;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 999;
+    width: 100vw; height: 100vh;
+    background: rgba(169, 224, 169, 0.486);
+    display: none; 
+    justify-content: center;
+    align-items: center;
+  }
+  #t_c_pop.show {
+    visibility: visible;
+    display: flex; 
+    -webkit-animation: popupin 1s;
+    animation:popupin 1s;
+  }
+
+  #popclose{
+    position: absolute;
+    top: 0; 
+    right: 5px;
+    font-size: 3rem;
+  }
+  #poptitle, #poptext{
+    margin: 0;
+    padding: 10%;
+  
+  }
