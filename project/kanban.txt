@@ -3,7 +3,6 @@ US10:
 Us20: 
     -resposibe ( estimado1 h)
     -logica js par el loging (estimado 1h 30m )
-   
     - metodo get.( estimado 1 hora)
 US21:
     -mostrar terminos y condiciones al cliquear (2 horas )
@@ -17,18 +16,21 @@ US21:
 
 
 [Revision]  # Historias pendientes de aprobación, con el tiempo dedicado
-US010 - Hacer login (estimado 2h. real 1h.)
-US020 - Mostrar condiciones (estimando 2h. real 15')
-US030 - Comprobar login (2h. real 30')
-US040 - Mostrar dashboard (estimado 2h. real: ui 1h + logica 30')
-US041 - Clasificaciones (estimado 2h. real 1h30')
+US010 - Iniciar Aplicacion  (estimado 3h. real 2h.)
+US020 - Mostrar loging   (estimado 5h. real )
+US021 - Mostrar condiciones (estimando 2h. real )
+US030 - Comprobar login (2h. real )
+US040 - Mostrar dashboard (estimado 2h. real)
+US041 - Clasificaciones (estimado 2h.real)
 
 
 [Finalizado] # Historias finalizadas
-US010 - Hacer login (estimado 3 horas real 2 h)
+US010 - Iniciar aplicacion   (estimado 3 horas. real 2 h)
     -Crear Inicio con logo y dos botones.(estimado 1 hora  real 1 hora 30mins)
     -Primer boton al repositorio git  (estimado 1 hora real 10min)
     -Segundo boton al Loging (estimado 1 hora real 10min)
-Us20: 
+
+Us20:-Mostrar login  (estimado 5 horas. real )
     -crear loging.html (estimado 1h 30m real 45 min)
-     -boton desactivado hasta que acepte condiciones.( estimado 1 hora real 45min)
+    -boton desactivado hasta que acepte condiciones.( estimado 1 hora real 45min)
+    - metodo get.( estimado 1 hora real 10 min)
