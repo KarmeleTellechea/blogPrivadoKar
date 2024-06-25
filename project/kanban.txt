@@ -1,12 +1,20 @@
 [Backlog]  # Historias con tiempo estimadol
 US10:
 Us20: 
+    -test
     -resposibe ( estimado1 h)
-    -logica js par el loging (estimado 1h 30m )
-
-
-  
-[Spring]  # Historias a realizar en un spring con responsable asignado
+    -logica js par el loging (estimado 1h 30m real 2 horas  )
+Us21:
+    -test
+US030 - Comprobar login (10h. real )
+    -Informacion de user y contraseña e condiciones en la url
+    -json con contraseña  y usuario 
+    - fech en auth para coger info de json
+    -comprobar si usuario y contraseña son correctas
+    -si lo son alerta incorrecto y vuelta al loging
+    -si es correcto a dashboard
+    -PLUS PONER UNA ANIMACION DE VALIDACION
+[Spring]ra cog  # Historias a realizar en un spring con responsable asignado
  
 
 [En proceso]  # Historias en proceso
@@ -31,6 +39,7 @@ Us20:-Mostrar login  (estimado 5 horas. real )
     -crear loging.html (estimado 1h 30m real 45 min)
     -boton desactivado hasta que acepte condiciones.( estimado 1 hora real 45min)
     - metodo get.( estimado 1 hora real 10 min)
+    -logica js par el loging (estimado 1h 30m real 2 horas )
 
 US21-Mostrar condiciones (estimando 2h. real 1hora 30min):
     -mostrar terminos y condiciones al cliquear (2 horas real 1hora 15 min)
