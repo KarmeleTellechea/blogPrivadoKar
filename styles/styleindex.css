@@ -100,6 +100,7 @@ img {
         right: 0;
     }
 }
+
 /*-----------POPUP*/
 #t_c_pop {
     visibility: hidden;
@@ -140,3 +141,25 @@ img {
     padding-top: 3rem;
   }
   
+  /*--respon--*/
+   @media only screen and (max-width:800px){
+    .fondo{ 
+      display: none;
+    }
+    .loging {
+      height: 100%;
+      width: 100%;
+      background-image: url(../Img/fondologin.webp);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+ 
+    }
+    .barreraform{
+      background-color:  rgba(85, 85, 85, 0.7);
+      color: #e3e4f9;
+    }
+    #letrascon {
+        color: rgb(175, 197, 177);
+    }
+  }
