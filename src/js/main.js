@@ -10,24 +10,13 @@ condiciones.addEventListener('change', cambiarCondiciones);
 // Funcion POPUP
 document.addEventListener('DOMContentLoaded', function() {
     function Sipop(title, text) {
-        const popTitulo = document.getElementById("poptitulo");
-        const popTexto = document.getElementById("poptexto");
-        const tCPop = document.getElementById("t_c_pop");
-
-        if (popTitulo && popTexto && tCPop) {
-            popTitulo.innerHTML = title;
-            popTexto.innerHTML = text;
-            tCPop.classList.add('show');
-        } 
+        document.getElementById("poptitulo").innerHTML = title;
+        document.getElementById("poptexto").innerHTML = text;
+        document.getElementById("t_c_pop").classList.add('show');
     }
-
     function Nopop() {
-        const tCPop = document.getElementById("t_c_pop");
-        if (tCPop) {
-            tCPop.classList.remove('show');
-        }
+        document.getElementById("t_c_pop").classList.remove('show');
     }
-
     function togglePopup() {
         const checkbox = document.getElementById("checkcondiciones");
         if (checkbox.checked) {
@@ -37,11 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function showTerms() {
         Sipop('Terminos y condiciones', 'En un puerto italianoooooo al pieee de las montañaaaas,<br>Vive nuestro amigo marcooooo<br>En una humilde moradaaaaa.');
     }
-
     window.Sipop = Sipop; 
     window.Nopop = Nopop; 
     window.togglePopup = togglePopup; 
-    window.showTerms = showTerms; e
+    window.showTerms = showTerms; 
 });
 
 

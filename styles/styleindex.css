@@ -94,7 +94,7 @@ img {
     top: 0; left: 0;
     z-index: 999;
     width: 100vw; height: 100vh;
-    background: rgba(169, 224, 169, 0.486);
+    background: rgba(94, 104, 105, 0.486);
     display: none; 
     justify-content: center;
     align-items: center;
