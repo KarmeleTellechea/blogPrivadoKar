@@ -7,13 +7,14 @@ Us20:
 Us21:
     -test
 US030 - Comprobar login (10h. real )
-    -Informacion de user y contraseña e condiciones en la url
-    -json con contraseña  y usuario 
-    - fech en auth para coger info de json
-    -comprobar si usuario y contraseña son correctas
-    -si lo son alerta incorrecto y vuelta al loging
-    -si es correcto a dashboard
-    -PLUS PONER UNA ANIMACION DE VALIDACION
+    -Informacion de user y contraseña e condiciones en la url(1h. real )
+    -json con contraseña  y usuario (1h. real )
+    - fech en auth para coger info de json(3h. real )
+    -comprobar si usuario y contraseña son correctas(2h. real )
+    -si lo son alerta incorrecto y vuelta al loging (1h. real )
+    -si es correcto a dashboard (1h. real )
+    -PLUS PONER UNA ANIMACION DE VALIDACION (1h. real )
+    
 [Spring]ra cog  # Historias a realizar en un spring con responsable asignado
  
 
