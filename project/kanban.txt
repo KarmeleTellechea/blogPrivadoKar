@@ -9,8 +9,21 @@ US030 Comprobar login (10h. )
     -PLUS PONER UNA ANIMACION DE VALIDACION (1h. real )
 
 US040 - Mostrar dashboard (estimado h.)
+    -header con un titulo 
+    -casificaciones en un aside (fotografos de natura. fotografos de ciudad, fotografos deportivos, fotografos artisticos )
+    - tarjetas de los artículos
+    -Estas tarjetas serán web-components.
+    -Al pulsar en cada tarjeta, el usuario será llevado a la página del artículo para que pueda ver el contenido.
+    -El artículo ha de ser una página que muestre la información del articulo.
+    -main con diferentes cuadrados (al principio popurri)
+    -El articulo, ha de encontrarse un mecanismo para dar feedback del artículo.
+    -El feedback se realizará via email al email del autor, rellenando el email , el asunto y el principio del cuerpo del email.
     
 US041 - Clasificaciones (estimado h.real)
+-casificaciones en un aside (fotografos de natura. fotografos de ciudad, fotografos deportivos, fotografos artisticos )
+-cuando le de a uno de tipos de fotografos me saldran fotografos de esa seccion
+-al abrir saldra info y una foto .
+
 Generales
 
     Toda la funcionalidad cubierta.
