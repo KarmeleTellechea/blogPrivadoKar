@@ -49,7 +49,7 @@ img {
                 /* login*/
 .fondo {
     height: 100%;
-    width: 75%;
+    width: 100%;
    background-image: url(../Img/fondologin.webp);
    background-size: cover;
    background-position: center;
@@ -58,9 +58,12 @@ img {
 }
 
 .loging {
+    position: absolute;
+    right: -100%;
+    animation: formulario 2.5s forwards;
     height: 100%;
     width: 30%;
-    background-color: #1e201f;
+    background-color: #1e201fdb;
 }
 .barreraform{
     margin: 50%;
@@ -87,6 +90,15 @@ img {
 }
 #letrascon {
     color: rgb(125, 165, 165);
+}
+
+@keyframes formulario  {
+    0% {
+        right: -100%;
+    }
+    100% {
+        right: 0;
+    }
 }
 /*-----------POPUP*/
 #t_c_pop {
