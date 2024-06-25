@@ -3,7 +3,7 @@ US10:
 Us20: 
     -resposibe ( estimado1 h)
     -logica js par el loging (estimado 1h 30m )
-    - metodo get.( estimado 1 hora)
+
 US21:
     -mostrar terminos y condiciones al cliquear (2 horas )
     -boton cerrar (1 hora )
