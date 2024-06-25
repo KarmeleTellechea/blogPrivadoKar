@@ -88,6 +88,7 @@ img {
 #letrascon {
     color: rgb(125, 165, 165);
 }
+/*-----------POPUP*/
 #t_c_pop {
     visibility: hidden;
     position: fixed;
@@ -117,3 +118,13 @@ img {
     padding: 10%;
   
   }
+  #popdentro{
+    position: relative;
+    width:40rem ;
+    height: 15rem;
+    background: rgba(230, 230, 230, 0.791);
+    border: solid 0.5rem rgb(0, 0, 0);
+    padding-left:7rem;
+    padding-top: 3rem;
+  }
+  
