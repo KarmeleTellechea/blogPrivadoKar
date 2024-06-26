@@ -1,25 +1,406 @@
-[
-    { 
-        "image": "aaaaa.aaa",
-        "title": "aaaaa",
-        "date": "YYYY-MM-DD",
+{
+    "natura":[
+         {
+        "image": "../../Img/natura/na1.webp",
+        "title": "Explorando la Selva",
+        "date": "2023-01-01",
         "author": {
-            "name": "aaaaa",
-            "mail": "aaa@aaa.org"
+            "name": "Autor Natura 1",
+            "email": "autor1@natura.com"
         },
-        "content" : "Lorem Ipsum....",
-        "labels": ["aaaaa", "bbbbb"]
+        "content": "Contenido del artículo sobre exploración de la selva...",
+        "labels": ["natura", "selva"]
     },
-    { 
-        "image": "aaaaa.aaa",
-        "title": "aaaaa",
-        "date": "YYYY-MM-DD",
+    {
+        "image": "../../Img/natura/na2.webp",
+        "title": "Vida Salvaje en el Ártico",
+        "date": "2023-02-01",
         "author": {
-            "name": "aaaaa",
-            "mail": "aaa@aaa.org"
+            "name": "Autor Natura 2",
+            "email": "autor2@natura.com"
         },
-        "content" : "Lorem Ipsum....",
-        "labels": ["aaaaa", "bbbbb"]
+        "content": "Contenido del artículo sobre la vida salvaje en el ártico...",
+        "labels": ["natura", "ártico"]
+    },
+    {
+        "image": "../../Img/natura/na3.webp",
+        "title": "Bosques Tropicales",
+        "date": "2023-03-01",
+        "author": {
+            "name": "Autor Natura 3",
+            "email": "autor3@natura.com"
+        },
+        "content": "Contenido del artículo sobre bosques tropicales...",
+        "labels": ["natura", "bosques"]
+    },
+    {
+        "image": "../../Img/natura/na4.webp",
+        "title": "Ríos y Cascadas",
+        "date": "2023-04-01",
+        "author": {
+            "name": "Autor Natura 4",
+            "email": "autor4@natura.com"
+        },
+        "content": "Contenido del artículo sobre ríos y cascadas...",
+        "labels": ["natura", "ríos"]
+    },
+    {
+        "image": "../../Img/natura/na5.webp",
+        "title": "Fauna de las Montañas",
+        "date": "2023-05-01",
+        "author": {
+            "name": "Autor Natura 5",
+            "email": "autor5@natura.com"
+        },
+        "content": "Contenido del artículo sobre la fauna de las montañas...",
+        "labels": ["natura", "montañas"]
+    },
+    {
+        "image": "../../Img/natura/na6.webp",
+        "title": "Desiertos y sus Habitantes",
+        "date": "2023-06-01",
+        "author": {
+            "name": "Autor Natura 6",
+            "email": "autor6@natura.com"
+        },
+        "content": "Contenido del artículo sobre desiertos y sus habitantes...",
+        "labels": ["natura", "desiertos"]
+    },
+    {
+        "image": "../../Img/natura/na7.webp",
+        "title": "Playas y Océanos",
+        "date": "2023-07-01",
+        "author": {
+            "name": "Autor Natura 7",
+            "email": "autor7@natura.com"
+        },
+        "content": "Contenido del artículo sobre playas y océanos...",
+        "labels": ["natura", "océanos"]
+    },
+    {
+        "image": "../../Img/natura/na8.webp",
+        "title": "Ecosistemas de Agua Dulce",
+        "date": "2023-08-01",
+        "author": {
+            "name": "Autor Natura 8",
+            "email": "autor8@natura.com"
+        },
+        "content": "Contenido del artículo sobre ecosistemas de agua dulce...",
+        "labels": ["natura", "agua dulce"]
+    },
+    {
+        "image": "../../Img/natura/na9.webp",
+        "title": "Climas Polares",
+        "date": "2023-09-01",
+        "author": {
+            "name": "Autor Natura 9",
+            "email": "autor9@natura.com"
+        },
+        "content": "Contenido del artículo sobre climas polares...",
+        "labels": ["natura", "polos"]
     }
-   
+],
+    "ciudad":[
+    {
+        "image": "ciudad1.jpg",
+        "title": "Vida Urbana en Nueva York",
+        "date": "2023-01-10",
+        "author": {
+            "name": "Autor Ciudad 1",
+            "email": "autor1@ciudad.com"
+        },
+        "content": "Contenido del artículo sobre la vida urbana en Nueva York...",
+        "labels": ["ciudad", "Nueva York"]
+    },
+    {
+        "image": "ciudad2.jpg",
+        "title": "Arquitectura de Tokio",
+        "date": "2023-02-10",
+        "author": {
+            "name": "Autor Ciudad 2",
+            "email": "autor2@ciudad.com"
+        },
+        "content": "Contenido del artículo sobre la arquitectura de Tokio...",
+        "labels": ["ciudad", "Tokio"]
+    },
+    {
+        "image": "ciudad3.jpg",
+        "title": "Cultura de París",
+        "date": "2023-03-10",
+        "author": {
+            "name": "Autor Ciudad 3",
+            "email": "autor3@ciudad.com"
+        },
+        "content": "Contenido del artículo sobre la cultura de París...",
+        "labels": ["ciudad", "París"]
+    },
+    {
+        "image": "ciudad4.jpg",
+        "title": "Historia de Roma",
+        "date": "2023-04-10",
+        "author": {
+            "name": "Autor Ciudad 4",
+            "email": "autor4@ciudad.com"
+        },
+        "content": "Contenido del artículo sobre la historia de Roma...",
+        "labels": ["ciudad", "Roma"]
+    },
+    {
+        "image": "ciudad5.jpg",
+        "title": "Tecnología en Seúl",
+        "date": "2023-05-10",
+        "author": {
+            "name": "Autor Ciudad 5",
+            "email": "autor5@ciudad.com"
+        },
+        "content": "Contenido del artículo sobre la tecnología en Seúl...",
+        "labels": ["ciudad", "Seúl"]
+    },
+    {
+        "image": "ciudad6.jpg",
+        "title": "Tradiciones de Ciudad de México",
+        "date": "2023-06-10",
+        "author": {
+            "name": "Autor Ciudad 6",
+            "email": "autor6@ciudad.com"
+        },
+        "content": "Contenido del artículo sobre las tradiciones de Ciudad de México...",
+        "labels": ["ciudad", "Ciudad de México"]
+    },
+    {
+        "image": "ciudad7.jpg",
+        "title": "Turismo en Londres",
+        "date": "2023-07-10",
+        "author": {
+            "name": "Autor Ciudad 7",
+            "email": "autor7@ciudad.com"
+        },
+        "content": "Contenido del artículo sobre el turismo en Londres...",
+        "labels": ["ciudad", "Londres"]
+    },
+    {
+        "image": "ciudad8.jpg",
+        "title": "Cultura Cafetera en Bogotá",
+        "date": "2023-08-10",
+        "author": {
+            "name": "Autor Ciudad 8",
+            "email": "autor8@ciudad.com"
+        },
+        "content": "Contenido del artículo sobre la cultura cafetera en Bogotá...",
+        "labels": ["ciudad", "Bogotá"]
+    },
+    {
+        "image": "ciudad9.jpg",
+        "title": "Vida Nocturna en Madrid",
+        "date": "2023-09-10",
+        "author": {
+            "name": "Autor Ciudad 9",
+            "email": "autor9@ciudad.com"
+        },
+        "content": "Contenido del artículo sobre la vida nocturna en Madrid...",
+        "labels": ["ciudad", "Madrid"]
+    }
+],
+    "deportes":[
+    {
+        "image": "deportes1.jpg",
+        "title": "El Fútbol en Brasil",
+        "date": "2023-01-20",
+        "author": {
+            "name": "Autor Deportes 1",
+            "email": "autor1@deportes.com"
+        },
+        "content": "Contenido del artículo sobre el fútbol en Brasil...",
+        "labels": ["deportes", "fútbol"]
+    },
+    {
+        "image": "deportes2.jpg",
+        "title": "Los Juegos Olímpicos",
+        "date": "2023-02-20",
+        "author": {
+            "name": "Autor Deportes 2",
+            "email": "autor2@deportes.com"
+        },
+        "content": "Contenido del artículo sobre los Juegos Olímpicos...",
+        "labels": ["deportes", "olímpicos"]
+    },
+    {
+        "image": "deportes3.jpg",
+        "title": "Baloncesto en la NBA",
+        "date": "2023-03-20",
+        "author": {
+            "name": "Autor Deportes 3",
+            "email": "autor3@deportes.com"
+        },
+        "content": "Contenido del artículo sobre el baloncesto en la NBA...",
+        "labels": ["deportes", "baloncesto"]
+    },
+    {
+        "image": "deportes4.jpg",
+        "title": "El Tenis y sus Leyendas",
+        "date": "2023-04-20",
+        "author": {
+            "name": "Autor Deportes 4",
+            "email": "autor4@deportes.com"
+        },
+        "content": "Contenido del artículo sobre el tenis y sus leyendas...",
+        "labels": ["deportes", "tenis"]
+    },
+    {
+        "image": "deportes5.jpg",
+        "title": "El Rugby en Nueva Zelanda",
+        "date": "2023-05-20",
+        "author": {
+            "name": "Autor Deportes 5",
+            "email": "autor5@deportes.com"
+        },
+        "content": "Contenido del artículo sobre el rugby en Nueva Zelanda...",
+        "labels": ["deportes", "rugby"]
+    },
+    {
+        "image": "deportes6.jpg",
+        "title": "Atletismo en África",
+        "date": "2023-06-20",
+        "author": {
+            "name": "Autor Deportes 6",
+            "email": "autor6@deportes.com"
+        },
+        "content": "Contenido del artículo sobre el atletismo en África...",
+        "labels": ["deportes", "atletismo"]
+    },
+    {
+        "image": "deportes7.jpg",
+        "title": "La Fórmula 1",
+        "date": "2023-07-20",
+        "author": {
+            "name": "Autor Deportes 7",
+            "email": "autor7@deportes.com"
+        },
+        "content": "Contenido del artículo sobre la Fórmula 1...",
+        "labels": ["deportes", "Fórmula 1"]
+    },
+    {
+        "image": "deportes8.jpg",
+        "title": "El Hockey sobre Hielo",
+        "date": "2023-08-20",
+        "author": {
+            "name": "Autor Deportes 8",
+            "email": "autor8@deportes.com"
+        },
+        "content": "Contenido del artículo sobre el hockey sobre hielo...",
+        "labels": ["deportes", "hockey"]
+    },
+    {
+        "image": "deportes9.jpg",
+        "title": "El Surf en Hawái",
+        "date": "2023-09-20",
+        "author": {
+            "name": "Autor Deportes 9",
+            "email": "autor9@deportes.com"
+        },
+        "content": "Contenido del artículo sobre el surf en Hawái...",
+        "labels": ["deportes", "surf"]
+    }
+],
+    "arte":[
+    {
+        "image": "artisticos1.jpg",
+        "title": "Arte Renacentista",
+        "date": "2023-01-30",
+        "author": {
+            "name": "Autor Artísticos 1",
+            "email": "autor1@artisticos.com"
+        },
+        "content": "Contenido del artículo sobre el arte renacentista...",
+        "labels": ["artísticos", "renacimiento"]
+    },
+    {
+        "image": "artisticos2.jpg",
+        "title": "Impresionismo Francés",
+        "date": "2023-02-30",
+        "author": {
+            "name": "Autor Artísticos 2",
+            "email": "autor2@artisticos.com"
+        },
+        "content": "Contenido del artículo sobre el impresionismo francés...",
+        "labels": ["artísticos", "impresionismo"]
+    },
+    {
+        "image": "artisticos3.jpg",
+        "title": "Escultura Griega",
+        "date": "2023-03-30",
+        "author": {
+            "name": "Autor Artísticos 3",
+            "email": "autor3@artisticos.com"
+        },
+        "content": "Contenido del artículo sobre la escultura griega...",
+        "labels": ["artísticos", "escultura"]
+    },
+    {
+        "image": "artisticos4.jpg",
+        "title": "Pintura Barroca",
+        "date": "2023-04-30",
+        "author": {
+            "name": "Autor Artísticos 4",
+            "email": "autor4@artisticos.com"
+        },
+        "content": "Contenido del artículo sobre la pintura barroca...",
+        "labels": ["artísticos", "barroco"]
+    },
+    {
+        "image": "artisticos5.jpg",
+        "title": "Arte Contemporáneo",
+        "date": "2023-05-30",
+        "author": {
+            "name": "Autor Artísticos 5",
+            "email": "autor5@artisticos.com"
+        },
+        "content": "Contenido del artículo sobre el arte contemporáneo...",
+        "labels": ["artísticos", "contemporáneo"]
+    },
+    {
+        "image": "artisticos6.jpg",
+        "title": "Arquitectura Moderna",
+        "date": "2023-06-30",
+        "author": {
+            "name": "Autor Artísticos 6",
+            "email": "autor6@artisticos.com"
+        },
+        "content": "Contenido del artículo sobre la arquitectura moderna...",
+        "labels": ["artísticos", "arquitectura"]
+    },
+    {
+        "image": "artisticos7.jpg",
+        "title": "Fotografía Abstracta",
+        "date": "2023-07-30",
+        "author": {
+            "name": "Autor Artísticos 7",
+            "email": "autor7@artisticos.com"
+        },
+        "content": "Contenido del artículo sobre la fotografía abstracta...",
+        "labels": ["artísticos", "fotografía"]
+    },
+    {
+        "image": "artisticos8.jpg",
+        "title": "Arte Urbano",
+        "date": "2023-08-30",
+        "author": {
+            "name": "Autor Artísticos 8",
+            "email": "autor8@artisticos.com"
+        },
+        "content": "Contenido del artículo sobre el arte urbano...",
+        "labels": ["artísticos", "urbano"]
+    },
+    {
+        "image": "artisticos9.jpg",
+        "title": "Diseño Gráfico",
+        "date": "2023-09-30",
+        "author": {
+            "name": "Autor Artísticos 9",
+            "email": "autor9@artisticos.com"
+        },
+        "content": "Contenido del artículo sobre el diseño gráfico...",
+        "labels": ["artísticos", "diseño"]
+    }
 ]
+}

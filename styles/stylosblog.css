@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9a9a9a;
+}
+main{
+    display: flex;
+    align-items: center;
+   
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    width: 100%;
+}
+aside {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem
+    
+  }
+aside h2 {
+    text-align: center;
+}
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem;
+    width: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+aside ul li {
+    margin: 10px 0;
+}
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+.article-card {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left; /* Flotar a la izquierda para alinear los elementos en línea */
+    text-align: center;
+}
+img{
+    width: 20%;
+}
+
+/* Estilos para las filas de artículos */
+.row {
+    clear: both; /* Limpiar el float después de cada fila */
+    overflow: hidden; /* Limpiar el float correctamente en navegadores antiguos */
+}
+
+
+/* Estilos para el aside */
+#filtrar {
+    width: 200px;
+    float: left; /* Colocar el aside a la izquierda */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#filtrar h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#lista {
+    list-style: none;
+    padding: 0;
+}
+
+#lista li {
+    margin-bottom: 10px;
+}
+
+#lista a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+#lista a:hover {
+    background-color: #ccc;
+}
+
+/* Estilos para el contenedor de artículos */
+#contenedorArticulos {
+    margin-left: 240px; /* Acomodar el espacio para el aside */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.row {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.article-card {
+    width: calc(33.33% - 20px); /* Calcula el ancho para tres columnas con margen */
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease;
+   
+   
+}
+
+.article-card:hover {
+    background-color: #c5c4c4;
+}
+
+.article-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+
+}
