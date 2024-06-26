@@ -1,0 +1,25 @@
+[
+    { 
+        "image": "aaaaa.aaa",
+        "title": "aaaaa",
+        "date": "YYYY-MM-DD",
+        "author": {
+            "name": "aaaaa",
+            "mail": "aaa@aaa.org"
+        },
+        "content" : "Lorem Ipsum....",
+        "labels": ["aaaaa", "bbbbb"]
+    },
+    { 
+        "image": "aaaaa.aaa",
+        "title": "aaaaa",
+        "date": "YYYY-MM-DD",
+        "author": {
+            "name": "aaaaa",
+            "mail": "aaa@aaa.org"
+        },
+        "content" : "Lorem Ipsum....",
+        "labels": ["aaaaa", "bbbbb"]
+    }
+   
+]
