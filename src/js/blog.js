@@ -2,6 +2,11 @@ import { miComponenteWeb } from './componente.js';
 
 window.customElements.define('custom-tag', miComponenteWeb);
 
+const urlauth = new URLSearchParams(window.location.search);
+const authen = urlauth.get('auth');
+if (!authen) {
+    alert('Registrate');
+    window.location = 'loging.html';}
 
 document.addEventListener('DOMContentLoaded', function () {
     const contenedorArticulos = document.getElementById('contenedorArticulos');
@@ -28,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
             articleElement.setAttribute('image-src', articulo.image);
            
             contenedorArticulos.appendChild(articleElement);
+
         });
     }
 
