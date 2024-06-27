@@ -12,7 +12,7 @@ US040 - Mostrar dashboard (estimado h.)
    
     -Al pulsar en cada tarjeta, el usuario será llevado a la página del artículo para que pueda ver el contenido.
     -El artículo ha de ser una página que muestre la información del articulo.
-    -main con diferentes cuadrados (al principio popurri)
+   
     -El articulo, ha de encontrarse un mecanismo para dar feedback del artículo.
     -El feedback se realizará via email al email del autor, rellenando el email , el asunto y el principio del cuerpo del email.
     
@@ -75,7 +75,8 @@ US040
     -header con un titulo (estimado 1h real 10 min) 
     -casificaciones en un aside (fotografos de natura. fotografos de ciudad, fotografos deportivos, fotografos artisticos )(ESTIMADO 30 MIN real 30 min)
     - tarjetas de los artículos(estimado 1 h real 1:30)
-     -Estas tarjetas serán web-components.(estimado 1h real 2 h)
+    -Estas tarjetas serán web-components.(estimado 1h real 2 h)
+    -main con diferentes cuadrados (al principio )(estimado 1 hora real 2horas)
 
 US041 - Clasificaciones (estimado h.real)
     -casificaciones en un aside (fotografos de natura. fotografos de ciudad, fotografos deportivos, fotografos artisticos )(estimado 1 hora real 1 hora)
