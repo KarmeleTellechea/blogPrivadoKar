@@ -56,50 +56,15 @@ aside ul li a:hover {
 /* contenedor de artículos */
 #contenedorArticulos {
     margin-left: 0.5rem;
-    padding: 2rem;
+    padding: 1rem;
+    padding-right: 1rem;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between
+    
 }
 
 /*---articulos o imagenes */
-.article-card {
-    width: calc(33.33% - 1rem);
-    box-sizing: border-box;
-    text-align: center;
-    background-color: #f9f9f9;
-    transition: background-color 0.3s ease;
-    border-radius: 1rem;
-    padding: 1rem;
-    margin: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.article-card img {
-    width: 100%;
-    height: auto;
-    max-height: 15rem;
-    object-fit: cover;
-    border-radius: 1rem;
-}
-
-.article-card:hover {
-    background-color: #c5c4c4;
-}
-
-/* Responsive */
-@media (max-width: 1200px) {
-    .article-card {
-        width: calc(50% - 1rem);
-    }
-}
-
-@media (max-width: 768px) {
-    .article-card {
-        width: calc(100% - 1rem);
-    }
-}
 
