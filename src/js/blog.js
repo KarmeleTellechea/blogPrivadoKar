@@ -45,6 +45,7 @@ if (!authen) {
                 event.preventDefault(); 
                 if (event.target.tagName === 'A') {
                     const categoria = event.target.dataset.category;
+                    console.log("categoria")
                     const articulosFiltrados = data[categoria];
     
                     renderizarArticulos(articulosFiltrados);

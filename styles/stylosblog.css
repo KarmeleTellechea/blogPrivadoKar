@@ -53,7 +53,7 @@ aside ul li a {
 aside ul li a:hover {
     background-color: #ccc;
 }
-/* Estilos para el contenedor de artículos */
+/* contenedor de artículos */
 #contenedorArticulos {
     margin-left: 0.5rem;
     padding: 2rem;

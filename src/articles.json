@@ -102,7 +102,7 @@
 ],
     "ciudad":[
     {
-        "image": "ciudad1.jpg",
+        "image": "../../Img/ciudad/ci1.webp",
         "title": "Vida Urbana en Nueva York",
         "date": "2023-01-10",
         "author": {
@@ -113,7 +113,7 @@
         "labels": ["ciudad", "Nueva York"]
     },
     {
-        "image": "ciudad2.jpg",
+        "image": "../../Img/ciudad/ci2.webp",
         "title": "Arquitectura de Tokio",
         "date": "2023-02-10",
         "author": {
@@ -124,7 +124,7 @@
         "labels": ["ciudad", "Tokio"]
     },
     {
-        "image": "ciudad3.jpg",
+        "image": "../../Img/ciudad/ci3.webp",
         "title": "Cultura de París",
         "date": "2023-03-10",
         "author": {
@@ -135,7 +135,7 @@
         "labels": ["ciudad", "París"]
     },
     {
-        "image": "ciudad4.jpg",
+        "image": "../../Img/ciudad/ci4.webp",
         "title": "Historia de Roma",
         "date": "2023-04-10",
         "author": {
@@ -146,7 +146,7 @@
         "labels": ["ciudad", "Roma"]
     },
     {
-        "image": "ciudad5.jpg",
+        "image": "../../Img/ciudad/ci5.webp",
         "title": "Tecnología en Seúl",
         "date": "2023-05-10",
         "author": {
@@ -157,7 +157,7 @@
         "labels": ["ciudad", "Seúl"]
     },
     {
-        "image": "ciudad6.jpg",
+        "image": "../../Img/ciudad/ci6.webp",
         "title": "Tradiciones de Ciudad de México",
         "date": "2023-06-10",
         "author": {
@@ -168,7 +168,7 @@
         "labels": ["ciudad", "Ciudad de México"]
     },
     {
-        "image": "ciudad7.jpg",
+        "image": "../../Img/ciudad/ci7.webp",
         "title": "Turismo en Londres",
         "date": "2023-07-10",
         "author": {
@@ -179,7 +179,7 @@
         "labels": ["ciudad", "Londres"]
     },
     {
-        "image": "ciudad8.jpg",
+        "image": "../../Img/ciudad/ci8.webp",
         "title": "Cultura Cafetera en Bogotá",
         "date": "2023-08-10",
         "author": {
@@ -190,7 +190,7 @@
         "labels": ["ciudad", "Bogotá"]
     },
     {
-        "image": "ciudad9.jpg",
+        "image": "../../Img/ciudad/ci9.webp",
         "title": "Vida Nocturna en Madrid",
         "date": "2023-09-10",
         "author": {
@@ -203,7 +203,7 @@
 ],
     "deportes":[
     {
-        "image": "deportes1.jpg",
+        "image": "../../Img/deportes/de1.webp",
         "title": "El Fútbol en Brasil",
         "date": "2023-01-20",
         "author": {
@@ -214,7 +214,7 @@
         "labels": ["deportes", "fútbol"]
     },
     {
-        "image": "deportes2.jpg",
+        "image": "../../Img/deportes/de2.webp",
         "title": "Los Juegos Olímpicos",
         "date": "2023-02-20",
         "author": {
@@ -225,7 +225,7 @@
         "labels": ["deportes", "olímpicos"]
     },
     {
-        "image": "deportes3.jpg",
+        "image": "../../Img/deportes/de3.webp",
         "title": "Baloncesto en la NBA",
         "date": "2023-03-20",
         "author": {
@@ -236,7 +236,7 @@
         "labels": ["deportes", "baloncesto"]
     },
     {
-        "image": "deportes4.jpg",
+        "image": "../../Img/deportes/de4.webp",
         "title": "El Tenis y sus Leyendas",
         "date": "2023-04-20",
         "author": {
@@ -247,7 +247,7 @@
         "labels": ["deportes", "tenis"]
     },
     {
-        "image": "deportes5.jpg",
+        "image": "../../Img/deportes/de5.webp",
         "title": "El Rugby en Nueva Zelanda",
         "date": "2023-05-20",
         "author": {
@@ -258,7 +258,7 @@
         "labels": ["deportes", "rugby"]
     },
     {
-        "image": "deportes6.jpg",
+        "image": "../../Img/deportes/de6.webp",
         "title": "Atletismo en África",
         "date": "2023-06-20",
         "author": {
@@ -269,7 +269,7 @@
         "labels": ["deportes", "atletismo"]
     },
     {
-        "image": "deportes7.jpg",
+        "image": "../../Img/deportes/de7.webp",
         "title": "La Fórmula 1",
         "date": "2023-07-20",
         "author": {
@@ -280,7 +280,7 @@
         "labels": ["deportes", "Fórmula 1"]
     },
     {
-        "image": "deportes8.jpg",
+        "image": "../../Img/deportes/de8.webp",
         "title": "El Hockey sobre Hielo",
         "date": "2023-08-20",
         "author": {
@@ -291,7 +291,7 @@
         "labels": ["deportes", "hockey"]
     },
     {
-        "image": "deportes9.jpg",
+        "image": "../../Img/deportes/de9.webp",
         "title": "El Surf en Hawái",
         "date": "2023-09-20",
         "author": {
@@ -304,7 +304,7 @@
 ],
     "arte":[
     {
-        "image": "artisticos1.jpg",
+        "image": "../../Img/artisticos/ar1.webp",
         "title": "Arte Renacentista",
         "date": "2023-01-30",
         "author": {
@@ -315,7 +315,7 @@
         "labels": ["artísticos", "renacimiento"]
     },
     {
-        "image": "artisticos2.jpg",
+        "image": "../../Img/artisticos/ar2.webp",
         "title": "Impresionismo Francés",
         "date": "2023-02-30",
         "author": {
@@ -326,7 +326,7 @@
         "labels": ["artísticos", "impresionismo"]
     },
     {
-        "image": "artisticos3.jpg",
+        "image": "../../Img/artisticos/ar3.webp",
         "title": "Escultura Griega",
         "date": "2023-03-30",
         "author": {
@@ -337,7 +337,7 @@
         "labels": ["artísticos", "escultura"]
     },
     {
-        "image": "artisticos4.jpg",
+        "image": "../../Img/artisticos/ar4.webp",
         "title": "Pintura Barroca",
         "date": "2023-04-30",
         "author": {
@@ -348,7 +348,7 @@
         "labels": ["artísticos", "barroco"]
     },
     {
-        "image": "artisticos5.jpg",
+        "image": "../../Img/artisticos/ar5.webp",
         "title": "Arte Contemporáneo",
         "date": "2023-05-30",
         "author": {
@@ -359,7 +359,7 @@
         "labels": ["artísticos", "contemporáneo"]
     },
     {
-        "image": "artisticos6.jpg",
+        "image": "../../Img/artisticos/ar6.webp",
         "title": "Arquitectura Moderna",
         "date": "2023-06-30",
         "author": {
@@ -370,7 +370,7 @@
         "labels": ["artísticos", "arquitectura"]
     },
     {
-        "image": "artisticos7.jpg",
+        "image": "../../Img/artisticos/ar7.webp",
         "title": "Fotografía Abstracta",
         "date": "2023-07-30",
         "author": {
@@ -381,7 +381,7 @@
         "labels": ["artísticos", "fotografía"]
     },
     {
-        "image": "artisticos8.jpg",
+        "image": "../../Img/artisticos/ar8.webp",
         "title": "Arte Urbano",
         "date": "2023-08-30",
         "author": {
@@ -392,7 +392,7 @@
         "labels": ["artísticos", "urbano"]
     },
     {
-        "image": "artisticos9.jpg",
+        "image": "../../Img/artisticos/ar9.webp",
         "title": "Diseño Gráfico",
         "date": "2023-09-30",
         "author": {
