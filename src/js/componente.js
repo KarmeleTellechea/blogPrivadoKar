@@ -10,7 +10,7 @@ export class miComponenteWeb extends HTMLElement {
             <style>
           
                 .article-card {
-                    width: calc( 20rem);
+                    width: calc( 25rem);
                     box-sizing: border-box;
                     text-align: center;
                     background-color: #f9f9f9;
@@ -33,18 +33,6 @@ export class miComponenteWeb extends HTMLElement {
 
                 .article-card:hover {
                     background-color: #c5c4c4;
-                }
-
-                @media (max-width: 1200px) {
-                    .article-card {
-                        width: calc(10rem);
-                    }
-                }
-
-                @media (max-width: 768px) {
-                    .article-card {
-                        width: calc(100% - 1rem);
-                    }
                 }
             </style>
         `;
