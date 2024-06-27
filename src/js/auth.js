@@ -10,7 +10,7 @@ async function iniciarSesion() {
       }
   
       const users = await response.json();
-      console.log(users);
+     
   
       // Verificar las credenciales
       let verify = !!users.find(element => element.username === username && element.contrasena === password);
