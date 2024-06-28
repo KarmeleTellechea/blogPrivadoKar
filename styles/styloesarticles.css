@@ -1,8 +1,9 @@
 
 @import url(comun.css);
+#cerrar {
+    padding-left:80rem;
 
-
-
+}
 .textos {
     flex-direction: column;
     align-items: center;
@@ -35,11 +36,16 @@ footer {
     justify-content: center;
     padding-bottom: 0rem;
 
- #fecha, #tituloautor, #feedback{
+ #fecha, #tituloautor, #feedback {
     margin: 1rem;
  }
+
  
 }
 #feedbackForm{
     display: none;
 }
+#cerrar{
+    font-size: 2rem;
+
+ }
