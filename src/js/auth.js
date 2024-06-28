@@ -17,7 +17,7 @@ async function iniciarSesion() {
       console.log(verify);
   
       if (verify) {
-        window.location.href = '/src/html/blog.html?auth=Ok';
+        window.location.href = 'blog.html?auth=Ok';
       } else {
         alert('Usuario o contraseña incorrecta');
         window.location.href = 'loging.html';
