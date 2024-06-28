@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
             articleElement.setAttribute('image-src', articulo.image);
             //---------------------------------------------------levame a otro html
             articleElement.addEventListener('click', function () {
-                window.location.href =  `articulos.html?id=${articulo.labels}`;
+                window.location.href =  `articulos.html?labels=${articulo.labels}`;
               
                 //------------------------------------------------seguramente tendre que llevame el tag o id para identificar 
             });
