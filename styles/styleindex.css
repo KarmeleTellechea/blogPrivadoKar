@@ -1,11 +1,9 @@
-* {
-    box-sizing: border-box;
-}
+@import url(comun.css);
+
 
 body {
     margin: 0;
     height: 100vh;
-    background-color: rgb(202, 202, 202);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +70,7 @@ img {
     margin-right: 10%;
     border: solid 6px rgba(219, 218, 225, 0.807);
     border-radius: 20%;
-    color:rgb(183, 184, 183);
+    color:var(--colorletras);
     font-size: 1rem;
 }
 .barreraform input[type="text"],
@@ -157,7 +155,7 @@ img {
     }
     .barreraform{
       background-color:  rgba(85, 85, 85, 0.7);
-      color: #e3e4f9;
+      color:var(--colorle);
     }
     #letrascon {
         color: rgb(175, 197, 177);

@@ -1,14 +1,45 @@
-*{
-    margin: 0;
-    padding: 0;
+
+@import url(comun.css);
+
+
+
+.textos {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(51, 54, 54, 0.685);
+    color:var(--colorletras);
+    
+    border-radius: 20%;
+    border:solid rgb(190, 220, 227) 0.2rem;
+    #tituloarticulo{
+        margin-top: 7rem;
+     }
+     #articulocon{
+        margin: 3rem;
+     }
+    }
+#imagen{
+    flex: 1;
+    max-width: 30%;
+    margin-right: 2rem;
 }
-body {
-    font-family: Arial, sans-serif;
-    background-color: #9a9a9a;
-}
-header {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
+footer {
+    background-color: var(--colorhefo);
+    color:var(--colorletras);
+    text-align: center;
+    padding: 1rem ;
     width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0rem;
+
+ #fecha, #tituloautor, #feedback{
+    margin: 1rem;
+ }
+ 
+}
+#feedbackForm{
+    display: none;
 }

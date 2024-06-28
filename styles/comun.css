@@ -1,0 +1,27 @@
+:root {
+    --colorfondo: #9a9a9a;
+    --colorletras:rgb(210, 198, 198);
+    --colorhefo: #333;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: var(--colorfondo);
+    }
+
+    header {
+        background-color:var(--colorhefo) ;
+        color:var(--colorletras);
+        padding: 1rem;
+        width: 100%;
+    }
+    main{
+        display: flex;
+        align-items: center; 
+        padding: 2rem;
+    }
+     
