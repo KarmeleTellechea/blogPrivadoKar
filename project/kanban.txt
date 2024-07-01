@@ -8,6 +8,7 @@ US030 Comprobar login (10h. )
     -test
     -PLUS PONER UNA ANIMACION DE VALIDACION (1h. real )
 US040 - Mostrar dashboard (estimado h.)
+    -responsive 
     -El articulo, ha de encontrarse un mecanismo para dar feedback del artículo.
     -El feedback se realizará via email al email del autor, rellenando el email , el asunto y el principio del cuerpo del email. 
 US041 - Clasificaciones (estimado 3h.real)

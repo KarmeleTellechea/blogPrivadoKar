@@ -39,13 +39,30 @@ footer {
  #fecha, #tituloautor, #feedback {
     margin: 1rem;
  }
-
- 
 }
 #feedbackForm{
     display: none;
 }
 #cerrar{
     font-size: 2rem;
+ }
+ @media only screen and (max-width:800px) { 
+        main{
+            display: flex;
+            flex-direction: column;
+        }
+        #imagen{
+            max-width: 80%;
+        }
+        .textos {
+          margin: 2rem;
+            #tituloarticulo{
+                margin-top: 1rem;
+             }
+             #articulocon{
+                width:25rem;
+          
+             }
+            }
 
  }
