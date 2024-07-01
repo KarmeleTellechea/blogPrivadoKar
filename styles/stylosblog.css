@@ -48,6 +48,32 @@ aside ul li a:hover {
     justify-content: space-between
     
 }
+#hamburger,
+#hamburger-input {
+    display: none;
+}
+@media only screen and (max-width:800px) {
 
+    #contenedorArticulos{
+        padding: 0;
+    }
+    #hamburger {
+        display: block;
+        padding: 2%;
+        font-size: 200%;
+        font-weight: bold;
+        cursor: pointer;
+        
+    }
+    #tipofot{
+        display: none;
+     }
 
+    aside input:checked~#lista, #tipofot {
+        display: block;
+    }
+    ul {
+        display: none;
+    }
 
+}

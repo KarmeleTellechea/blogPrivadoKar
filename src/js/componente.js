@@ -34,6 +34,14 @@ export class miComponenteWeb extends HTMLElement {
                 .article-card:hover {
                     background-color: #c5c4c4;
                 }
+                    @media only screen and (max-width:800px) {
+                 .article-card {
+                    width: calc( 15rem);
+                    padding: 0.5rem;
+                    margin: 1rem;
+                    margin-rigth:10rem
+                }
+                    }
             </style>
         `;
 
