@@ -42,6 +42,21 @@ alert('Hubo un problema al cargar los datos. Por favor, inténtalo de nuevo más
 }
 document.addEventListener('DOMContentLoaded', verificarlabels);
 
+//feedback 
+document.getElementById('feedback').addEventListener('click', function() {
+    document.getElementById('feedbackForm').style.display = 'block';
+    document.getElementById('overlay').style.display = 'block';
+});
+
+document.getElementById('cerrarForm').addEventListener('click', function() {
+    document.getElementById('feedbackForm').style.display = 'none';
+    document.getElementById('overlay').style.display = 'none';
+});
+
+document.getElementById('overlay').addEventListener('click', function() {
+    document.getElementById('feedbackForm').style.display = 'none';
+    document.getElementById('overlay').style.display = 'none';
+});
 
 
         

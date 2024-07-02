@@ -10,17 +10,16 @@
 <body>
     <header>
         <center>
-       <h1>FOTOGRAFOS</h1>
-       <p id="cerrar">&#9746;</p>
+            <h1>FOTOGRAFOS</h1>
+            <p id="cerrar">&#9746;</p>
         </center>
     </header>
     <main>
-       
         <img id="imagen" src="" alt="">
         <div class="textos">
-        <h2 id="tituloarticulo"></h2>
-        <p id="articulocon"></p>
-    </div>
+            <h2 id="tituloarticulo"></h2>
+            <p id="articulocon"></p>
+        </div>
     </main>
     <footer>
         <p id="fecha"></p>
@@ -28,18 +27,23 @@
         <p id="feedback">Feedback</p>
     </footer>
 
+    <div id="overlay"></div>
+
     <form id="feedbackForm">
+        <span id="cerrarForm">&#9746;</span>
+        <h2>Enviar Feedback</h2>
         <label for="email">Tu correo electrónico:</label>
         <input type="email" id="email" name="email" required>
-
+        <br>
         <label for="subject">Asunto:</label>
         <input type="text" id="subject" name="subject" required>
-
+        <br>
         <label for="message">Mensaje:</label>
         <textarea id="message" name="message" rows="4" required></textarea>
-
+        <br>
         <button type="submit">Enviar</button>
     </form>
+  
     <script src="../js/articulos.js"></script>
 </body>
 </html>
