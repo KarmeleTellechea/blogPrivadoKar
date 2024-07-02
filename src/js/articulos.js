@@ -57,6 +57,10 @@ document.getElementById('overlay').addEventListener('click', function() {
     document.getElementById('feedbackForm').style.display = 'none';
     document.getElementById('overlay').style.display = 'none';
 });
+//cerrar articulo 
+document.getElementById('cerrar').addEventListener('click', function() {
+    window.location.href = 'blog.html?auth=Ok'; 
+});
 
 
         
