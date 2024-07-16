@@ -5,12 +5,12 @@ export class miComponenteWeb extends HTMLElement {
         const template = document.createElement('template');
         template.innerHTML = `
             <div class="article-card">
-                <img class="article-image" src="" alt="">
+                <img class="article_image" src="" alt="">
             </div>
             <style>
           
                 .article-card {
-                    width: calc( 25rem);
+                    width: calc( 30rem);
                     box-sizing: border-box;
                     text-align: center;
                     background-color: #f9f9f9;
@@ -23,8 +23,8 @@ export class miComponenteWeb extends HTMLElement {
                     align-items: center;
                 }
 
-                .article-image {
-                    width: 100%;
+                .article_image {
+                    width: 10px;
                     height: auto;
                     max-height: 12rem;
                     object-fit: cover;
@@ -51,7 +51,6 @@ export class miComponenteWeb extends HTMLElement {
 
     connectedCallback() {
         const imageSrc = this.getAttribute('image-src');
-        const title = this.getAttribute('title');
         const shadow = this.shadowRoot;
         shadow.querySelector('.article-image').src = imageSrc;
         shadow.querySelector('.article-image').alt = title;
